@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-# guessinggame.sh - guess how many files are in the current directory
-
 function count_files {
-  # count regular files and folders (not hidden ones) in the current directory
   ls -1 | wc -l
 }
 
